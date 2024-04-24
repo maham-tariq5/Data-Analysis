@@ -245,5 +245,7 @@ mean of x
 
 
 # creating histogram
+attach(data) 
+hist(data$food)
 
 
