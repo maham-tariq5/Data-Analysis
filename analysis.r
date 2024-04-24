@@ -2,7 +2,7 @@ data<-read.csv(file.choose(),sep= ",",header = TRUE)
 > data
    
 
-# importing same data of Elite Female Athletes Food Intake
+# importing sample data of Elite Female Athletes Food Intake
       food
 1   1658.4
 2    837.7
