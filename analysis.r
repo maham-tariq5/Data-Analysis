@@ -253,3 +253,18 @@ hist(food, xlab = "Kilocalories of Food Intake (per Day)", ylab = "Frequency", m
 attach(data$food) 
 boxplot(data$food) 
 boxplot(food, main = "Food Intake of Elite Athletes", ylab = "Kilocalories of Food Intake per Day", xlab = "Female Athletes", col = "Pink")
+
+
+# calculating MMM and standard deviation
+
+mean(A1Q2$food)
+
+[1] 2264.364
+
+median(A1Q2$food)
+
+[1] 2279.8
+
+sd(A1Q2$food)
+
+[1] 723.5684
