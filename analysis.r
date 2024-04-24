@@ -250,8 +250,6 @@ hist(data$food)
 hist(food, xlab = "Kilocalories of Food Intake (per Day)", ylab = "Frequency", main = "Histogram of Kilocalories of Food Intake Frequency of Female Elite Athletes", col = "lightblue")
 
 # creating boxplots
-
-attach(A1Q2) 
-boxplot(A1Q2$food) boxplot(food, main = "Food Intake of Elite Athletes", ylab = "Kilocalories of Food
-
-Intake per Day", xlab = "Female Athletes", col = "Pink")
+attach(data$food) 
+boxplot(data$food) 
+boxplot(food, main = "Food Intake of Elite Athletes", ylab = "Kilocalories of Food Intake per Day", xlab = "Female Athletes", col = "Pink")
