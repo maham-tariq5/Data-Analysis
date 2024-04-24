@@ -247,5 +247,6 @@ mean of x
 # creating histogram
 attach(data) 
 hist(data$food)
+hist(food, xlab = "Kilocalories of Food Intake (per Day)", ylab = "Frequency", main = "Histogram of Kilocalories of Food Intake Frequency of Female Elite Athletes", col = "lightblue")
 
 
