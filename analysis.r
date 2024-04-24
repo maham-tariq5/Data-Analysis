@@ -209,7 +209,7 @@ data<-read.csv(file.choose(),sep= ",",header = TRUE)
 dim(data)
 > [1] 201 1
 
-# creating plots 
+# creating QQ Plots  
 qqnorm(data$food)
 > qqnorm(data$food,main = "Normal QQ Plot of Elite Female Athletes Food Intake")
 > qqline(data$food)
@@ -242,5 +242,8 @@ alternative hypothesis: true mean is not equal to 2812
 sample estimates:
 mean of x 
  2264.364 
+
+
+# creating histogram
 
 
