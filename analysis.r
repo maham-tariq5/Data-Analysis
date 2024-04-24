@@ -1,5 +1,8 @@
 data<-read.csv(file.choose(),sep= ",",header = TRUE)
 > data
+   
+
+# importing same data of Elite Female Athletes Food Intake
       food
 1   1658.4
 2    837.7
@@ -203,6 +206,9 @@ data<-read.csv(file.choose(),sep= ",",header = TRUE)
 200 2394.3
 201 2277.6
 
+dim(data)
+> [1] 201 1
+
 # creating plots 
 qqnorm(data$food)
 > qqnorm(data$food,main = "Normal QQ Plot of Elite Female Athletes Food Intake")
@@ -210,6 +216,7 @@ qqnorm(data$food)
 
 
 
+# sample tests and observations
 t.test(data$food)
 
   One Sample t-test
@@ -235,3 +242,5 @@ alternative hypothesis: true mean is not equal to 2812
 sample estimates:
 mean of x 
  2264.364 
+
+
